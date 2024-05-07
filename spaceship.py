@@ -18,13 +18,14 @@ class Ship:
         self.weapons = weapons
         print(self.name)
         print(self.speed)
+        print(self.weapons)
 
 
     # Define a method called 'fire_weapon' that takes the weapon name as input.
     # This method should print a message indicating the weapon firing with its fire rate and damage.
     def fire_weapon(self, weapon_name):
         # Fill in the missing code here
-        pass
+        print(self.weapons)
 
 
 # Section 2: Define a function called 'main' which will be the entry point of your program.
