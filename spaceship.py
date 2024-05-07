@@ -39,7 +39,7 @@ def main():
     }
 
     # Create an instance of the Ship class with the defined weapons
-    ship = Ship("Starship", 500, weapons)
+    ship = Ship("Ship2", 1000, weapons)
 
     # Test the fire_weapon method with different weapons
     ship.fire_weapon("Laser")
