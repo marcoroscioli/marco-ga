@@ -9,12 +9,12 @@ while True:
           "2) The forbidden desert (DANGER AHEAD)\n" +
           "3) The enchanted forest\n")
 
-    choice1 = input()
-    if choice1 == "1":
+    mageManor = input()
+    if mageManor == "1":
         print("You are at the dark dusty cave")
-    if choice1 == "2":
+    if mageManor == "2":
         print("You are in the forbidden desert")
-    if choice1 == "3":
+    if mageManor == "3":
         print("Health: " + str(player_health), ", Shield: " + str(player_shield))
         print("You have entered the enchanted forest...\n Before you, you see " +
               "1) An evil graveyard, with a Frog waiting to be saved from the Mosquitos\n" +
