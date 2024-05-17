@@ -20,11 +20,11 @@ while True:
               "1) An evil graveyard, with a Frog waiting to be saved from the Mosquitos\n" +
               "2) Stay on same path\n" +
               "3) Contact Village and ask to leave\n")
-    choice2 = input()
+    choiceCave = input()
 
-    if choice2 == "3":
+    if choiceCave == "3":
             print("contact villager")
-    elif choice2 == "1":
+    elif choiceCave == "1":
             print("Health: " + str(player_health), ", Shield: " + str(player_shield))
             print(
                 "You start to walk to the graveyard, but all of a sudden... EVIL monsters with their pet Mosquitos start to attack! What do you do?\n" +
